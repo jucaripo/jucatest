@@ -35,17 +35,15 @@ struct ListaView: View {
     var body: some View {
         NavigationView{
             List {
-                Section(header: HStack{
-                    Image(systemName: "moon.stars")
-                    Text("Nightly Tasks")
-                }
-                ) {
+                // Forma 1 con una strunctura
+                Section(header: TaskSectionHeader(symbolSystemName: "moon.stars",headerText: "Nightly tasks") )
+                {
                     ForEach(nightlyTasks, id: \.self, content: {
                         taskName in
                         NavigationLink(taskName, destination: DetailsView(taskName: taskName))
                     })
                 }
-                
+                // forma 2  creando el contenido directo
                 Section(header: HStack{
                     Image(systemName: "sunset")
                     Text("Weekly Tasks")}
@@ -72,6 +70,16 @@ struct ListaView: View {
         }
     }
 
+struct TaskSectionHeader: View{
+    let symbolSystemName: String
+    let headerText: String
+    var body: some View{
+        HStack{
+            Image(systemName: symbolSystemName)
+            Text(headerText)
+        }.font(.title3)
+    }
+}
 
 struct ListaView_Previews: PreviewProvider {
     static var previews: some View {
