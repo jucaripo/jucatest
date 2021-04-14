@@ -9,17 +9,19 @@ import SwiftUI
 
 struct DemoTab: View {
     var body: some View {
-        HomeView().tabItem {
-            Text("Tab Label 1")
-            Image(systemName: "house")
-        }
-        MapView().tabItem {
-            Text("Tab Label 2")
-            Image(systemName: "map")
-        }
-        SettingsView().tabItem {
-            Text("Tab Label 3")
-            Image(systemName: "gear")
+        TabView {
+            HomeView().tabItem {
+                Text("Inicio")
+                Image(systemName: "house")
+            }
+            MapView().tabItem {
+                Text("Mapas")
+                Image(systemName: "map")
+            }
+            SettingsView().tabItem {
+                Text("Configuración")
+                Image(systemName: "gear")
+            }
         }
     }
 }
