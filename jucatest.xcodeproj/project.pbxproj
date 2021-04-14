@@ -13,6 +13,7 @@
 		319DA5BF262519FC009EED0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319DA5BE262519FC009EED0C /* Preview Assets.xcassets */; };
 		31C70BD926272FD0001695F5 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C70BD826272FD0001695F5 /* DetailsView.swift */; };
 		31F295692626003C0085C9D5 /* ListaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F295682626003C0085C9D5 /* ListaView.swift */; };
+		31FC955E2627444000D53C85 /* DemoTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FC955D2627444000D53C85 /* DemoTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		319DA5C0262519FC009EED0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31C70BD826272FD0001695F5 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		31F295682626003C0085C9D5 /* ListaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaView.swift; sourceTree = "<group>"; };
+		31FC955D2627444000D53C85 /* DemoTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				319DA5C0262519FC009EED0C /* Info.plist */,
 				319DA5BD262519FC009EED0C /* Preview Content */,
 				31F295682626003C0085C9D5 /* ListaView.swift */,
+				31FC955D2627444000D53C85 /* DemoTab.swift */,
 			);
 			path = jucatest;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				319DA5BA262519F4009EED0C /* ContentView.swift in Sources */,
 				31C70BD926272FD0001695F5 /* DetailsView.swift in Sources */,
 				319DA5B8262519F4009EED0C /* jucatestApp.swift in Sources */,
+				31FC955E2627444000D53C85 /* DemoTab.swift in Sources */,
 				31F295692626003C0085C9D5 /* ListaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

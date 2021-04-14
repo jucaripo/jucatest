@@ -83,6 +83,10 @@ struct TaskSectionHeader: View{
 
 struct ListaView_Previews: PreviewProvider {
     static var previews: some View {
-        ListaView()
+        Group {
+            ListaView()
+         
+        }
+            
     }
 }
