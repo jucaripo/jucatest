@@ -64,7 +64,7 @@ struct ListaView: View {
                 }
             }
             .listStyle(GroupedListStyle())
-            .navigationTitle("Home")
+            .navigationTitle("Mi primera app")
                 
         }
         }
